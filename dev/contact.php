@@ -66,12 +66,12 @@
 	<div class="footer-right c_info">
 		<h4><span>C</span>ontact Info</h4>
 		<ul class="contact_ul">
-			<li class="dot">638 Camino De Los Mares, Suite H130-450
+			<li class="dot">Address: 638 Camino De Los Mares, Suite H130-450
 				San Clemente, CA 92673-2848
 			</li>
-			<li class="mobile">888.PARTNER (727.8637)</li>
-			<li class="mobile">949.498.5066</li>
-			<li class="mes">info@southern-partners.com</li>
+			<li class="mobile">Tel: 888.PARTNER (727.8637)</li>
+			<li class="mobile">Fax: 949.498.5066</li>
+			<li class="mes">Email: info@southern-partners.com</li>
 		</ul>
 	</div>
 	<div class="clearfix"> </div>

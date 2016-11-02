@@ -90,11 +90,15 @@
 
 <p class="about_p">
 
-	Southern Partners is a certified woman minority-owned business with the Supplier Clearinghouse.  Southern Partners has unmatched business, energy and regulatory expertise.  Southern Partners consists of a well rounded management team with over 40 years of combined managerial experience relating to energy services management, operations management, and logistics.  Nicole Sias is the managing partner firmly committed to Southern Partners.
-<br><br>
+	Southern Partners is a certified woman minority-owned business with the Supplier Clearinghouse.  Southern Partners has unmatched business, energy and regulatory expertise.  Southern Partners consists of a well rounded management team with years of experience relating to energy commodities, operations management, and logistics.  Nicole “Nikki” Sias is the managing partner firmly committed to Southern Partners.
+<br>
+<br>
 	Ms. Sias is the President and Chief Executive Officer, of Southern Partners, Inc. responsible for establishing the company structure as well as day-to-day operations of the company.  She is also responsible for evaluating and maintaining industry standards, developing personnel policies and procedures and ensures that company functions in these areas are consistent with overall company objectives, policies, procedures and best practices.
-	<br><br>
+	<br>
+	<br>
 	Ms. Sias had a career in Personal Lines Insurance spanning over 16 years.  As a Marketing Representative, Ms. Sias managed broker accounts by evaluating market conditions, managing the business mix and retention of 100+ broker accounts, as well as monitoring and increasing agency performance and production.  Ms. Sias successfully grew her Los Angeles and Orange County territory into Permanent General Assurance Corporation’s most successful territory in California, writing an average of over $6 million in premiums per year.  Ms. Sias attended the University of Louisiana at Lafayette, majoring in Education.
+
+
 
 </p>
 

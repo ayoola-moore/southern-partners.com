@@ -14,6 +14,142 @@ $line_color: #ddd;
 }
 
 /*-----start-responsive-design------*/
+@media (min-width:1440px){
+  *{
+    //border: 1px solid red !important;
+  }
+
+  body{
+    font-size: 3.5em;
+  }
+
+  div#southern_partners_map{
+    height: 650px;
+  }
+
+  .body_margin{
+    min-height: 0;
+  }
+
+  .service-grid div span {
+    background-size: 100px !important;
+    display: block;
+    height: 102px !important;
+  }
+
+  .banner-nav ul li a{
+    padding: 1em 1.5em;
+  }
+
+  .service_p{
+    height: 450px;
+  }
+
+  .service-grid {
+    padding: 1em 0em 0em;
+    height: 669px;
+  }
+  .services p.para1, .footer_credit,.header-bottom-right p.what, .leave-comment input[type="submit"], .leave-comment textarea, .leave-comment input, .service-grid h4, .work-box p, .service-box p, .work p.para2, .footer-right h4, .portfolio-wrapper h4, .footer-right h4 span, .banner-nav ul li a, .service-grid p{
+    font-size:1em;
+    line-height:1em;
+  }
+
+  .leave-comment input[type="submit"], .leave-comment textarea, .leave-comment input{
+    padding-left: .5em !important;
+    background: none !important;
+  }
+
+  .footer-right h4 {
+    padding: 0 0 .3em 0;
+  }
+
+  .header-bottom h3{
+    font-size: 1.5em;
+  }
+
+  .banner-nav ul li a{
+    font-size: .9em;
+  }
+
+  div.head-logo > a > img{
+    width: 52px;
+  }
+  span.southern{
+    padding: 0 0 0 1em;
+  }
+
+  .head-logo {
+    float: left;
+    padding: .3em 0 0;
+  }
+
+  .back p{
+    display: none;
+  }
+  
+  .see{
+    margin-top: -1em;
+  }
+
+  .see a{
+    padding:1.5% 4%;
+    font-size: 1em;
+  }
+
+  .banner-info h2{
+    font-size: 2em;
+    margin-top: -1%;
+  }
+
+  .banner-info p.para{
+    font-size: 1.5em;
+  }
+
+  .service-box p{
+    background: url("../images/1.png") no-repeat 75px 50%;
+  }
+
+  .work-box p{
+    background: url("../images/services.png") no-repeat 38px 50%;
+  }
+
+  .banner-info{
+    background: url("../images/line1x4.png") no-repeat 7em 0.5em;
+  }
+  .banner-info p.para{
+    margin: 2.5em 0 4em;
+  }
+  .reports button a{
+    font-size: 0.9em;
+  }
+
+  .service-grid p{
+    line-height: 1.5em;
+    font-size:1em;
+  }
+
+  .container{
+    width: 2500px;
+  }
+
+  .services{
+    margin-bottom: 4em;
+  }
+
+  .footer-right ul li, .mes{
+    padding: 1.8% 0;
+  }
+
+  .img-responsive{
+    width: 650px;
+  }
+}
+
+
+
+
+
+
 @media (max-width:1440px){
   .service-grid:nth-child(3) {
     margin: 0 1% 0 0em;
@@ -176,7 +312,7 @@ $line_color: #ddd;
     left: 38.5%;
   }
   .banner-info {
-    background: url(../images/line2.png) no-repeat 8.5em 1.5em;
+    background: url(../images/line2.png) no-repeat 8.5em 1em;
     margin-top: 5em;
   }
 
@@ -500,6 +636,10 @@ $line_color: #ddd;
     margin: 0 auto;
   }
 
+  .reports button{
+    width: 100%;
+  }
+
   .service-box p {
     background: url(../images/1.png) no-repeat 19px 17px;
     font-size: 15px;
@@ -519,7 +659,7 @@ $line_color: #ddd;
   }
   .service-grid {
     padding: 2em 0em 0em;
-    //width: 30%;
+    width: 49%;
   }
   .services {
     margin-bottom: 6em;
@@ -1727,7 +1867,13 @@ $line_color: #ddd;
 
   div.contact{
     margin: 0 auto;
+    float: none;
   }
+
+  div.contact a{
+    text-align: center;
+  }
+
   .footer {
     padding: 2em 0 0;
   }
@@ -1787,7 +1933,7 @@ $line_color: #ddd;
   }
 
   .banner-nav {
-    padding-top:4.5%;
+    padding-top: 2.8%;
   }
 
   .portfolio-wrapper h4 {

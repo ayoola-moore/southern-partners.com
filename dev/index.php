@@ -9,9 +9,9 @@
 	<div class="container">
 		<div class="banner-info">
 			<h2>Southern Partners</h2>
-			<p class="para">Power . Renewables . Natural-Gas</p>
+			<p class="para">Power . Natural Gas . Renewables <br> Petroleum </p>
 			<div class="see">
-				<a href="#">FIND OUT MORE</a>
+				<a href="services.php">FIND OUT MORE</a>
 				<div class="back">
 					<p><label>s</label><span>s</span></p>
 				</div>
@@ -58,50 +58,57 @@
 		<div class="service-box">
 			<p>PRODUCTS</p>
 		</div>
-		<p class="para1">Whatever your needs may be, our Long term energy contracts are designed <span>To lower your cost.</span></p>
+		<p class="para1">Our product are design Long term energy contracts are designed <span>To lower your cost.</span></p>
 		<div class="service-grids">
 			<div class="service-grid">
 				<div class="fig">
 					<span> </span>
 				</div>
 				<h4>Power</h4>
-				<p>This includes the purchase, sale, marketing, and delivery of power. When it comes to power, we've got you covered in split seconds</p>
-			</div>
-			<div class="service-grid">
-				<div class="fig1">
-					<span> </span>
-				</div>
-				<h4>Renewables</h4>
-				<p>Renewable energy includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass, which are replenish naturally</p>
-			</div>
-			<div class="service-grid">
-				<div class="fig2">
-					<span> </span>
-				</div>
-				<h4>Petroleum</h4>
-				<p>Petroleum products will includes gasoline, jet fuel, diesel fuel, heating oil, heavier fuel oils, amongst several others</p>
+				<p>This includes the purchase, sale, marketing, and delivery of power. When it comes to power, we've got you covered</p>
 			</div>
 			<div class="service-grid">
 				<div class="fig3">
 					<span> </span>
 				</div>
 				<h4>Natural gas</h4>
-				<p>Natural gas is a fossil fuel used as a source of energy for heating, cooking, electricity generation and many other more uses</p>
+				<p>Natural gas is a fossil fuel used as a source of energy for heating, cooking, electricity generation and many other uses</p>
+			</div>
+			<div class="service-grid">
+				<div class="fig1">
+					<span> </span>
+				</div>
+				<h4>Renewables</h4>
+				<p>Renewable energy includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass, which are replenished naturally</p>
+			</div>
+			<div class="service-grid">
+				<div class="fig2">
+					<span> </span>
+				</div>
+				<h4>Petroleum</h4>
+				<p>Petroleum products will includes gasoline, jet fuel, diesel fuel, heating oil, and other fuel oils. </p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+
+		<div class="reports">
+			<div>
+				<button><a href="http://ir.eia.gov/ngs/ngs.html" target="_blank">Natural Gas Storage Report</a> </button>
+				<button><a href="http://www.eia.gov/dnav/pet/pet_sum_sndw_dcus_nus_w.htm" target="_blank">Petroleum & Other Liquids Report</a> </button>
+			</div>
+		</div>
 	</div>
 
 <div class="about_quote">
-	Who we are, what we do, and yes! we are approved
+	Who we are, and what we do
 </div>
 
 <p class="about_p">
 
-	Southern Partners is a FERC approved power marketer as well as a marketer of natural gas and other petroleum products and renewables.  Southern Partners is also provides consulting services.  Southern Partners takes title to the energy commodities it sells.
+	Southern Partners is a marketer of power and natural gas, and other petroleum products and renewables.  Southern Partners is also provides consulting services.  Southern Partners takes title to the energy commodities it sells.
 
-	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customers’ costs. Moreover, HIC is currently registered with the Commodity Futures Trading Commission (CFTC) as an exempt Commodity Trade Advisory firm.
+	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customers’ costs.
 
 	Southern Partners trades natural gas and electricity as commodities and manages the risks of doing so.  Information is the vital element of any commodity business, and whatever entity can accumulate the most information and act on it most quickly will have a competitive advantage.
 

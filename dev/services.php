@@ -54,7 +54,8 @@
 //				        pager: true,
 //				        nav: true,
 				        speed: 500,
-					  	pauseControls: true,
+						  pause: true,           // Boolean: Pause on hover, true or false
+						  pauseControls: true,
 				        namespace: "callbacks",
 						  before: function () {
 				          $('.events').append("<li>before event fired.</li>");
@@ -86,6 +87,13 @@
 				</div>
 				<div class="clearfix"> </div>
 			</div>
+		</li>		<li>
+			<div class="header-bottom-info">
+				<div class="header-bottom-left">
+					<img src="images/diagram.png" alt=" " />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
 		</li>
 		<li>
 			<div class="header-bottom-info">
@@ -106,16 +114,17 @@
 		</li>
 	</ul>
 	<div class="header-bottom-right">
-		<h2 class="h2_t">Power & Renewables</h2>
-		<p class="what">We deliver this form of energy at the lowest possible cost. Renewable energy are generated from natural processes which are continuously replenished. This includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass. This energy cannot be exhausted and is constantly renewed.</p>
-		<div class="header-bottom-lft">
-			<h2 class="add_padding h2_t">Petroleum</h2>
-			<p>With our network of partners, delivering petroleum products are done promptly. We operate broadly and we put our customers concerns first, and as such we deliver the product in way that lower your cost </p>
-		</div>
-		<div class="header-bottom-lft">
-			<h2 class="add_padding h2_t">Natural gas</h2>
-			<p>The wide range of uses for natural gas makes it a critical resource for the world economies. The use of natural gas are broad and Whatever your natural gas need might be, we are equipped to deliver</p>
-		</div>
+		<h2 class="h2_t">Power, Natural Gas, Renewables, and Petroleum</h2>
+		<p>We deliver this form of energy at the lowest possible cost. Renewable energy are generated from natural processes which are continuously replenished. This includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass. This energy cannot be exhausted and is constantly renewed.
+<br>
+<br>
+<!--		<h2 class="add_padding h2_t">Petroleum</h2>-->
+		<p>With our network of partners, delivering petroleum products are done promptly. We operate broadly and we put our customers concerns first, and as such we deliver the product in way that lower your cost </p>
+		<br>
+<!--		<h2 class="add_padding h2_t">Natural gas</h2>-->
+		<p>The wide range of uses for natural gas makes it a critical resource for the world economies. The use of natural gas are broad and Whatever your natural gas need might be, we are equipped to deliver</p>
+		</p>
+
 		<div class="clearfix"> </div>
 	</div>
 </div>
@@ -132,7 +141,7 @@
 </p>
 
 <div class="header-bottom">
-<!--	<h3 class="h_intro">services</h3>-->
+	<h3 class="h_intro">services</h3>
 </div>
 
 <!-- Portfolio Starts Here -->

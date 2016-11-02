@@ -15,6 +15,11 @@ $s_color: #5281AC;
 //$line_color: $p_color;
 $line_color: #ddd;
 
+.b-link-stripe{
+	max-width: 100%;
+}
+
+
 body,html{
 	padding:0px;
 	margin:0px;
@@ -45,6 +50,37 @@ body{
 	position: relative;
 }
 
+.reports div{
+	margin: 0 auto;
+	width: 60%;
+	min-width: 300px;
+}
+
+.reports button{
+	width: 49%;
+	min-width:300px;
+	margin: 0 auto;
+	background: #C0C0C0;
+}
+
+/*.reports button:first-child{
+	border-right:3px solid $s_color;
+}
+.reports button:last-child{
+	border-left:3px solid $s_color;
+}*/
+
+.reports button a{
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding: 6px;
+}
+
+.reports button a:hover, .reports button a:active{
+	color: $s_color;
+
+}
 
 form.contact input{
 	margin:  3% 1% 1% 0;
@@ -71,11 +107,10 @@ form.contact input, form.contact textarea{
 }
 .banner-info{
 	text-align: center;
- 	background: url(http://localhost/southern-partners2/dev/css/../images/line1.png) no-repeat 15em 1.5em;
+ 	background: url(../images/line1.png) no-repeat 15em 1.5em;
 	display: block;
 	//height: 199px;
 	//width: 70%;
-	min-width: 320px;
 	margin: 12% auto 0;
 }
 
@@ -87,9 +122,9 @@ form.contact input, form.contact textarea{
 }
 .banner-info p.para{
 	color:$white;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-family: 'Open Sans', sans-serif;
-	margin: 2em 0 2.3em;
+	margin: 1em 0 2.3em;
 }
 .see{
 	text-align:center;
@@ -213,7 +248,6 @@ form.contact input, form.contact textarea{
 .service-box p:hover{
 	text-decoration:none;
 	color:$white;
-	background: url(../images/1-.png) no-repeat 40px 19px;
 	display: block;
 }
 .service-box-line{
@@ -234,6 +268,7 @@ form.contact input, form.contact textarea{
 .service-grid{
 	float:left;
 	width:24%;
+	height: 309px;
 	background:$white;
 	text-align:center;
 	padding: 6em 0em;
@@ -336,7 +371,7 @@ form.contact input, form.contact textarea{
 .b-link-stripe .b-wrapper{
 	position:absolute;
 	width:100%;
-	height: 83%;
+	height: 100%;
 	top:0;
 	left:0;
 	text-align:center;
@@ -2620,6 +2655,7 @@ div.contact{
 	height:auto;
 	color: $white;
 	background: $s_color;
+	float: left;
 	//border: 1px solid #000000;
 }
 
