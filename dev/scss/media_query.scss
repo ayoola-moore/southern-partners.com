@@ -14,10 +14,7 @@ $line_color: #ddd;
 }
 
 /*-----start-responsive-design------*/
-@media (min-width:1440px){
-  *{
-    //border: 1px solid red !important;
-  }
+@media (min-width:2500px){
 
   body{
     font-size: 3.5em;
