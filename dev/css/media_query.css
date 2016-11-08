@@ -349,6 +349,43 @@
   .banner-nav ul {
     margin: 1.6em 0 0; } }
 
+@media (max-width: 1000px) {
+  .banner-info {
+    background: url("../images/line1.png") no-repeat 50% 50%; }
+  .service-box p {
+    border: 4px solid #eee;
+    background: url(../images/1.png) no-repeat 9px 19px !important;
+    display: block;
+    color: #eee;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px 40px 20px 43px !important;
+    text-align: center; } }
+
+@media (max-width: 980px) {
+  .service-grid {
+    float: left;
+    width: 24%;
+    height: 400px;
+    background: #eee;
+    text-align: center; }
+  .reports button {
+    width: 49%;
+    min-width: 0;
+    margin: 0 auto;
+    background: #C0C0C0; } }
+
+@media (max-width: 900px) {
+  .portfolio-wrapper h4 {
+    color: #eee;
+    text-shadow: 0 1px #000;
+    font-size: .5em;
+    font-weight: 600;
+    padding: 37% 0em 3%;
+    margin: 0 auto;
+    width: 80%;
+    text-transform: uppercase; } }
+
 @media (max-width: 768px) {
   .header-bottom-lft p {
     width: 100%; }
@@ -363,9 +400,8 @@
   .banner-info h2 {
     font-size: 35px; }
   .banner-info p.para {
-    margin: 1.5em 0 4.3em; }
+    margin: 1.5em 0 2.3em; }
   .banner-info {
-    background: url(../images/line2.png) no-repeat 0.5em 1em;
     margin-top: 3em; }
   .back {
     left: 34.9%; }
@@ -390,7 +426,8 @@
     width: 97%; }
   .service-grid {
     padding: 2em 0em 0em;
-    width: 49%; }
+    width: 49%;
+    height: 300px; }
   .services {
     margin-bottom: 6em; }
   .work-box p {
@@ -655,6 +692,10 @@
   .work-box a:hover {
     background: url(../images/2-.png) no-repeat 9px 15px; } }
 
+@media (max-width: 700px) {
+  .banner-info {
+    background: url("../images/line1.png") no-repeat 50% 50%; } }
+
 @media (max-width: 640px) {
   .c_info {
     border-left: none;
@@ -674,6 +715,11 @@
     background-size: 80%; }
   #southern_partners_map {
     height: 250px; }
+  .reports button {
+    width: 98%;
+    min-width: 0;
+    margin: 0 auto;
+    background: #C0C0C0; }
   .see a {
     font-size: 15px;
     padding: 15px 59px; }
@@ -971,10 +1017,11 @@
   .services p.para1 {
     font-size: 14px;
     overflow: hidden;
-    height: 40px; }
+    height: auto; }
   .service-grid {
     padding: 1em 0em 0em;
     width: 100%;
+    height: 250px;
     margin: 20px 0; }
   .work-box-line {
     padding: 30px; }
@@ -985,7 +1032,7 @@
   .work p.para2 {
     font-size: 14px;
     overflow: hidden;
-    height: 40px; }
+    height: auto; }
   .portfolio-wrapper:nth-child(4) {
     display: none; }
   div.link {
@@ -1201,7 +1248,8 @@
   .margin_space, .see, .about_quote, p.about_p {
     display: none; }
   .service-box p, .work-box p {
-    background: none; }
+    background: none !important;
+    padding: 0 0 0 0 !important; }
   .service-grid {
     text-align: justify; }
   .h_intro {
