@@ -115,14 +115,14 @@
 	</ul>
 	<div class="header-bottom-right">
 		<h2 class="h2_t">Power, Natural Gas, Renewables, and Petroleum</h2>
-		<p>We deliver this form of energy at the lowest possible cost. Renewable energy are generated from natural processes which are continuously replenished. This includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass. This energy cannot be exhausted and is constantly renewed.
-<br>
-<br>
-<!--		<h2 class="add_padding h2_t">Petroleum</h2>-->
-		<p>With our network of partners, delivering petroleum products are done promptly. We operate broadly and we put our customers concerns first, and as such we deliver the product in way that lower your cost </p>
+		<p>We deliver this form of energy at the lowest possible cost. Renewable energy is generated from natural processes which are continuously replenished. This includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass. This energy cannot be exhausted and is constantly renewed.
+			<br>
+			<br>
+			<!--		<h2 class="add_padding h2_t">Petroleum</h2>-->
+		<p>With our network of partners, delivering petroleum products are done promptly. We operate broadly and put our customers concerns first. As such, we deliver products in way that lowers your cost. </p>
 		<br>
-<!--		<h2 class="add_padding h2_t">Natural gas</h2>-->
-		<p>The wide range of uses for natural gas makes it a critical resource for the world economies. The use of natural gas are broad and Whatever your natural gas need might be, we are equipped to deliver</p>
+		<!--		<h2 class="add_padding h2_t">Natural gas</h2>-->
+		<p>The wide range of uses for natural gas makes it a critical resource for the world economy. The uses of natural gas are broad. whatever your natural gas needs might be we are equipped to deliver.</p>
 		</p>
 
 		<div class="clearfix"> </div>
@@ -136,7 +136,7 @@
 <!--</div>-->
 
 <p class="about_p lines">
-	Southern Partner’s provides wholesale energy commodities in deregulated markets.  Southern Partners builds its wholesale businesses through the creation of alliances and partnerships. These alliances and partnerships allows Southern Partners  access to third-party assets to participate in market-making activities. Each market in which Southern Partners operates utilizes these alliances and partnerships to deliver high quality products and services.
+	Southern Partners provides wholesale energy commodities in deregulated markets.  Southern Partners builds its wholesale businesses through the creation of alliances and partnerships. These alliances and partnerships allows Southern Partners  access to third-party assets to participate in market-making activities. Each market in which Southern Partners operates utilizes these alliances and partnerships to deliver high quality products and services.
 
 </p>
 
@@ -148,8 +148,8 @@
 <div class="portfoliolist">
 	<div class="portfolio-wrapper2">
 
-		<p class="service_p"><span class="s_bold">Human Resource </span>
-		 play an important part of developing and making a company or organization. We help companies, individuals or organization in the process of doing so. </p>
+		<p class="service_p"><span class="s_bold">Human Resources. </span>
+			We play an important part in developing and making a company, or organization viable. </p>
 		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/human_resource.png" />
 			<div class="b-wrapper">
@@ -165,8 +165,8 @@
 
 	</div>
 	<div class="portfolio-wrapper2">
-		<p class="service_p">      <span class="s_bold">Financial consulting</span>
-		We work with companies or individuals to plan for their financial futures by offering information and guidance on topics that include taxes, investments and insurance decisions</p>
+		<p class="service_p">      <span class="s_bold">Financial Consulting.</span>
+			We work with companies or organizations to plan their financial future by offering information and guidance on topics that include taxes, investments, and insurance decisions.</p>
 		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/financial-services-consultant.jpg" />
 			<div class="b-wrapper">
@@ -183,7 +183,7 @@
 	</div>
 	<div class="portfolio-wrapper2">
 
-		<p class="service_p"><span class="s_bold">Environmental Consulting </span>We ensures that the client maintains an appropriate measure of compliance with environmental regulations through our consulting services.</p>
+		<p class="service_p"><span class="s_bold">Environmental Consulting. </span>We ensure that the client maintains an appropriate measure of compliance with environmental regulations through our consulting services.</p>
 		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/environmental_consulting.png" />
 			<div class="b-wrapper">
@@ -198,8 +198,8 @@
 
 	</div>
 	<div class="portfolio-wrapper2">
-		<p class="service_p">		<span class="s_bold">Management Consulting</span>
-		We help organizations to improve their performance, operating primarily through the analysis of existing organizational problems and the development of plans for improvement.</p>
+		<p class="service_p">		<span class="s_bold">Management Consulting. </span>
+			We help organizations improve their performance. Operating primarily through the analysis of existing organizational problems and the development of plans for improvement.</p>
 		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/management_consulting.png" />
 			<div class="b-wrapper">
