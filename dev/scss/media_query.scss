@@ -433,7 +433,7 @@ $line_color: #ddd;
     padding: 31px 27px;
   }
   .header-bottom-right {
-    margin-left: 3em;
+    //margin-left: 3em;
   }
   .header-bottom-right p.what {
     width: 100%;
@@ -624,14 +624,19 @@ $line_color: #ddd;
     width: 80%;
     text-transform: uppercase;
   }
+
 }
 
 
 
 
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
+  p.about_p{
+    padding: 3% 7% 0 !important;
+    text-align: justify;
+  }
+
   .header-bottom-lft p{
     width:100%;
   }
@@ -1075,6 +1080,7 @@ $line_color: #ddd;
   .work-box a:hover {
     background: url(../images/2-.png) no-repeat 9px 15px;
   }
+
 }
 
 
@@ -1894,7 +1900,7 @@ $line_color: #ddd;
     padding: 1% 0;
   }
 
-  .margin_space, .see, .about_quote, p.about_p{
+  .margin_space, .see{
     display: none;
   }
 
