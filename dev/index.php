@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="banner-info">
 			<h2>Southern Partners</h2>
-			<p class="para">Power . Natural Gas . Renewables <br> Petroleum </p>
+			<p class="para">Power . Natural Gas . Renewables <br> Petroleum . Crude Oil </p>
 			<div class="see">
 				<a href="services.php">FIND OUT MORE</a>
 				<div class="back">
@@ -107,7 +107,7 @@
 <p class="about_p">
 
 	Southern Partners is a marketer of power and natural gas, as well as other petroleum products and renewables.  Southern Partners also provides consulting services.
-	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customersâ€™ costs. Southern Partners takes title to the energy commodities it sells.
+	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customers’ costs. Southern Partners takes title to the energy commodities it sells.
 
 
 	Southern Partners trades natural gas and electricity as commodities and manages the risks.  Information is the vital element of any commodity business, and whatever entity can accumulate the most information and act on it most quickly will have a competitive advantage.
