@@ -1,0 +1,21 @@
+{
+  "name": "southern-partners.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ayoola_moore/southern-partners.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ayoola_moore/southern-partners.com#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

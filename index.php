@@ -9,9 +9,9 @@
 	<div class="container">
 		<div class="banner-info">
 			<h2>Southern Partners</h2>
-			<p class="para">Power . Renewables . Natural-Gas</p>
+			<p class="para">Power . Crude Oil . Natural Gas .  <br> Petroleum Products . Renewables </p>
 			<div class="see">
-				<a href="#">FIND OUT MORE</a>
+				<a href="services.php">FIND OUT MORE</a>
 				<div class="back">
 					<p><label>s</label><span>s</span></p>
 				</div>
@@ -51,63 +51,77 @@
 	</div>
 <!-- banner-bottom -nav -->
 <!-- services -->
-	<div id="services" class="services">
+<div id="services" class="services">
 	<div class="container">
 		<div class="service-box-line">
 		</div>
 		<div class="service-box">
 			<p>PRODUCTS</p>
 		</div>
-		<p class="para1">Whatever your needs may be, our Long term energy contracts are designed <span>To lower your cost.</span></p>
+		<p class="para1">Our product are design Long term energy contracts are designed <span>To lower your cost.</span></p>
 		<div class="service-grids">
 			<div class="service-grid">
 				<div class="fig">
 					<span> </span>
 				</div>
 				<h4>Power</h4>
-				<p>This includes the purchase, sale, marketing, and delivery of power. When it comes to power, we've got you covered in split seconds</p>
+				<p>Purchase, sale, marketing, and delivery of power.</p>
+			</div>
+            <div class="service-grid">
+                <div class="figx">
+                    <span> </span>
+                </div>
+                <h4>Crude Oil</h4>
+                <p>Supply and delivery of Crude oil to offices, factory Etc.</p>
+            </div>
+			<div class="service-grid">
+				<div class="fig3">
+					<span> </span>
+				</div>
+				<h4>Natural gas</h4>
+				<p>Source of energy for heating, cooking, electricity generation Etc.</p>
 			</div>
 			<div class="service-grid">
 				<div class="fig1">
 					<span> </span>
 				</div>
 				<h4>Renewables</h4>
-				<p>Renewable energy includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass, which are replenish naturally</p>
+				<p>Renewable energy includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass.</p>
 			</div>
 			<div class="service-grid">
 				<div class="fig2">
 					<span> </span>
 				</div>
-				<h4>Petroleum</h4>
-				<p>Petroleum products will includes gasoline, jet fuel, diesel fuel, heating oil, heavier fuel oils, amongst several others</p>
-			</div>
-			<div class="service-grid">
-				<div class="fig3">
-					<span> </span>
-				</div>
-				<h4>Natural gas</h4>
-				<p>Natural gas is a fossil fuel used as a source of energy for heating, cooking, electricity generation and many other more uses</p>
+				<h4>Petroleum Products</h4>
+				<p>Petroleum products includes gasoline, jet fuel, diesel fuel, heating oil, and other fuel oils. </p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+
+	<div class="reports">
+		<div>
+			<button><a href="http://ir.eia.gov/ngs/ngs.html" target="_blank">Natural Gas Storage Report</a> </button>
+			<button><a href="http://www.eia.gov/dnav/pet/pet_sum_sndw_dcus_nus_w.htm" target="_blank">Petroleum & Other Liquids Report</a> </button>
+		</div>
 	</div>
+</div>
 
 <div class="about_quote">
-	Who we are, what we do, and yes! we are approved
+	WHO WE ARE AND WHAT WE DO
 </div>
 
 <p class="about_p">
 
-	Southern Partners is a FERC approved power marketer as well as a marketer of natural gas and other petroleum products and renewables.  Southern Partners is also provides consulting services.  Southern Partners takes title to the energy commodities it sells.
+	Southern Partners is a marketer of power, crude oil, and natural gas, as well as other petroleum products and renewables.  Southern Partners also provides consulting services.
+	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customers� costs. Southern Partners takes title to the energy commodities it sells.
 
-	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customers’ costs. Moreover, HIC is currently registered with the Commodity Futures Trading Commission (CFTC) as an exempt Commodity Trade Advisory firm.
 
-	Southern Partners trades natural gas and electricity as commodities and manages the risks of doing so.  Information is the vital element of any commodity business, and whatever entity can accumulate the most information and act on it most quickly will have a competitive advantage.
+	Southern Partners trades natural gas and electricity as commodities and manages the risks.  Information is the vital element of any commodity business, and whatever entity can accumulate the most information and act on it most quickly will have a competitive advantage.
 
 	Our team assimilates and acts on information quickly.  At any moment, our team knows exactly where natural gas and power prices are trading throughout the country.
 
-	Although we are capable of competing against all competitors we are certified Minority Supplier; therefore purchasing from us will also help our customers achieve any diversity purchasing goals and standards that their companies have established.
+	Southern partners is a certified Minority Supplier, capable of competing against all competitor. Therefore purchasing from us will also help our customers achieve diversity purchasing goals and standards that has been established.
 
 	<a href="about.php" class="f_more">find out more</a>
 
@@ -118,7 +132,7 @@
 
 <!-- //services -->
 <!-- work -->
-	<div class="work" id="work">
+<div class="work" id="work">
 	<div class="container">
 		<div class="work-box-line">
 		</div>
@@ -127,27 +141,27 @@
 		</div>
 		<p class="para2">We provide other professional services in areas of human resource, financial consulting, environment consulting, and management consulting</p>
 	</div>
-	</div>
-	<!-- Portfolio Starts Here -->
-	<div class="portfoliolist">
-		<div class="portfolio-wrapper">
-<!--			<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
-			<a href="#" class="b-link-stripe b-animate-go"  title="">
+</div>
+<!-- Portfolio Starts Here -->
+<div class="portfoliolist">
+	<div class="portfolio-wrapper">
+		<!--			<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
+		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/human_resource.png" />
 			<div class="b-wrapper">
 				<div class="port">
 					<h2 class="b-animate b-from-left    b-delay03 ">
 						<div class="text">
-							<h4>Human <br>Resource</h4>
+							<h4>Human <br>Resources</h4>
 						</div>
 					</h2>
 				</div>
 			</div>
-			</a>
+		</a>
 	</div>
-		<div class="portfolio-wrapper">
-<!--			<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
-			<a href="#" class="b-link-stripe b-animate-go"  title="">
+	<div class="portfolio-wrapper">
+		<!--			<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
+		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/financial-services-consultant.jpg" />
 			<div class="b-wrapper">
 				<div class="port">
@@ -158,11 +172,11 @@
 					</h2>
 				</div>
 			</div>
-			</a>
-		</div>
-		<div class="portfolio-wrapper">
-<!--			<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
-			<a href="#" class="b-link-stripe b-animate-go"  title="">
+		</a>
+	</div>
+	<div class="portfolio-wrapper">
+		<!--			<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
+		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/environmental_consulting.png" />
 			<div class="b-wrapper">
 				<div class="port">
@@ -173,11 +187,11 @@
 					</h2>
 				</div>
 			</div>
-			</a>
-		</div>
-		<div class="portfolio-wrapper">
-<!--		<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
-			<a href="#" class="b-link-stripe b-animate-go"  title="">
+		</a>
+	</div>
+	<div class="portfolio-wrapper">
+		<!--		<div class="text1"><p>Curabitur vel libero quis neque</p></div>-->
+		<a href="#" class="b-link-stripe b-animate-go"  title="">
 			<img class="img-responsive" src="images/management_consulting.png" />
 			<div class="b-wrapper">
 				<div class="port">
@@ -188,9 +202,9 @@
 					</h2>
 				</div>
 			</div>
-			</a>
-		</div>
-		<div class="clearfix"> </div>
+		</a>
+	</div>
+	<div class="clearfix"> </div>
 		<div class="link"><a href="services.php" class="more_link"> More services ... </a></div>
 						
 			<link rel="stylesheet" href="css/swipebox.css">

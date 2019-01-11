@@ -14,10 +14,140 @@ $line_color: #ddd;
 }
 
 /*-----start-responsive-design------*/
-@media (max-width:1440px){
-  .service-grid:nth-child(3) {
-    margin: 0 1% 0 0em;
+@media (min-width:2500px){
+
+  body{
+    font-size: 3.5em;
   }
+
+  div#southern_partners_map{
+    height: 650px;
+  }
+
+  .body_margin{
+    min-height: 0;
+  }
+
+  .service-grid div span {
+    background-size: 100px !important;
+    display: block;
+    height: 102px !important;
+  }
+
+  .banner-nav ul li a{
+    padding: 1em 1.5em;
+  }
+
+  .service_p{
+    height: 450px;
+  }
+
+  .service-grid {
+    padding: 1em 0em 0em;
+    height: 669px;
+  }
+  .services p.para1, .footer_credit,.header-bottom-right p.what, .leave-comment input[type="submit"], .leave-comment textarea, .leave-comment input, .service-grid h4, .work-box p, .service-box p, .work p.para2, .footer-right h4, .portfolio-wrapper h4, .footer-right h4 span, .banner-nav ul li a, .service-grid p{
+    font-size:1em;
+    line-height:1em;
+  }
+
+  .leave-comment input[type="submit"], .leave-comment textarea, .leave-comment input{
+    padding-left: .5em !important;
+    background: none !important;
+  }
+
+  .footer-right h4 {
+    padding: 0 0 .3em 0;
+  }
+
+  .header-bottom h3{
+    font-size: 1.5em;
+  }
+
+  .banner-nav ul li a{
+    font-size: .9em;
+  }
+
+  div.head-logo > a > img{
+    width: 52px;
+  }
+  span.southern{
+    padding: 0 0 0 1em;
+  }
+
+  .head-logo {
+    float: left;
+    padding: .3em 0 0;
+  }
+
+  .back p{
+    display: none;
+  }
+  
+  .see{
+    margin-top: -1em;
+  }
+
+  .see a{
+    padding:1.5% 4%;
+    font-size: 1em;
+  }
+
+  .banner-info h2{
+    font-size: 2em;
+    margin-top: -1%;
+  }
+
+  .banner-info p.para{
+    font-size: 1.5em;
+  }
+
+  .service-box p{
+    background: url("../images/1.png") no-repeat 75px 50%;
+  }
+
+  .work-box p{
+    background: url("../images/services.png") no-repeat 38px 50%;
+  }
+
+  .banner-info{
+    background: url("../images/line1x4.png") no-repeat 7em 0.5em;
+  }
+  .banner-info p.para{
+    margin: 2.5em 0 4em;
+  }
+  .reports button a{
+    font-size: 0.9em;
+  }
+
+  .service-grid p{
+    line-height: 1.5em;
+    font-size:1em;
+  }
+
+  .container{
+    width: 2500px;
+  }
+
+  .services{
+    margin-bottom: 4em;
+  }
+
+  .footer-right ul li, .mes{
+    padding: 1.8% 0;
+  }
+
+  .img-responsive{
+    width: 650px;
+  }
+}
+
+
+
+
+
+
+@media (max-width:1440px){
 
   .b-link-stripe .b-wrapper {
     height: 100%;
@@ -176,7 +306,7 @@ $line_color: #ddd;
     left: 38.5%;
   }
   .banner-info {
-    background: url(../images/line2.png) no-repeat 8.5em 1.5em;
+    background: url(../images/line2.png) no-repeat 8.5em 1em;
     margin-top: 5em;
   }
 
@@ -300,7 +430,7 @@ $line_color: #ddd;
     padding: 31px 27px;
   }
   .header-bottom-right {
-    margin-left: 3em;
+    //margin-left: 3em;
   }
   .header-bottom-right p.what {
     width: 100%;
@@ -446,19 +576,64 @@ $line_color: #ddd;
 
 }
 
+@media (max-width: 1000px){
+  .banner-info{
+    background: url("../images/line1.png") no-repeat 50% 50%;
+  }
+
+  .service-box p {
+    border: 4px solid #eee;
+    background: url(../images/1.png) no-repeat 9px 19px !important;
+    display: block;
+    color: #eee;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px 40px 20px 43px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 980px){
+  .service-grid {
+    float: left;
+    width: 24%;
+    height: 400px;
+    background: #eee;
+    text-align: center;
+  }
+
+  .reports button {
+    width: 49%;
+    min-width: 0;
+    margin: 0 auto;
+    background: #C0C0C0;
+  }
+}
+
+@media (max-width: 900px){
+  .portfolio-wrapper h4 {
+    color: #eee;
+    text-shadow: 0 1px #000;
+    font-size: .5em;
+    font-weight: 600;
+    padding: 37% 0em 3%;
+    margin: 0 auto;
+    width: 80%;
+    text-transform: uppercase;
+  }
+
+}
 
 
 
 
 
+@media (max-width: 768px) {
+  p.about_p{
+    padding: 3% 7% 0 !important;
+    text-align: justify;
+  }
 
-
-
-
-
-
-@media (max-width: 768px)
-{
   .header-bottom-lft p{
     width:100%;
   }
@@ -482,10 +657,9 @@ $line_color: #ddd;
     font-size: 35px;
   }
   .banner-info p.para {
-    margin: 1.5em 0 4.3em;
+    margin: 1.5em 0 2.3em;
   }
   .banner-info {
-    background: url(../images/line2.png) no-repeat 0.5em 1em;
     margin-top: 3em;
   }
   .back {
@@ -500,6 +674,10 @@ $line_color: #ddd;
     margin: 0 auto;
   }
 
+  .reports button{
+    width: 100%;
+  }
+
   .service-box p {
     background: url(../images/1.png) no-repeat 19px 17px;
     font-size: 15px;
@@ -512,6 +690,7 @@ $line_color: #ddd;
     font-size: 16px;
     margin: 1em 0 0;
   }
+
   .service-grids {
     top: 53%;
     left: 3%;
@@ -519,7 +698,7 @@ $line_color: #ddd;
   }
   .service-grid {
     padding: 2em 0em 0em;
-    //width: 30%;
+    height: 300px;
   }
   .services {
     margin-bottom: 6em;
@@ -897,13 +1076,18 @@ $line_color: #ddd;
   .work-box a:hover {
     background: url(../images/2-.png) no-repeat 9px 15px;
   }
+
 }
 
 
 
 
 
-
+@media (max-width: 700px){
+  .banner-info{
+    background: url("../images/line1.png") no-repeat 50% 50%;
+  }
+}
 
 
 
@@ -938,6 +1122,13 @@ $line_color: #ddd;
 
   #southern_partners_map{
     height: 250px;
+  }
+
+  .reports button {
+    width: 98%;
+    min-width: 0;
+    margin: 0 auto;
+    background: #C0C0C0;
   }
 
   .see a {
@@ -1370,11 +1561,12 @@ $line_color: #ddd;
   .services p.para1 {
     font-size: 14px;
     overflow: hidden;
-    height: 40px;
+    height: auto;
   }
   .service-grid{
     padding: 1em 0em 0em;
     width: 100%;
+    height: 250px;
     margin: 20px 0;
   }
   .service-grid {
@@ -1392,7 +1584,7 @@ $line_color: #ddd;
   .work p.para2 {
     font-size: 14px;
     overflow: hidden;
-    height: 40px;
+    height: auto;
   }
   .portfolio-wrapper:nth-child(4) {
     display: none;
@@ -1704,12 +1896,13 @@ $line_color: #ddd;
     padding: 1% 0;
   }
 
-  .margin_space, .see, .about_quote, p.about_p{
+  .margin_space, .see{
     display: none;
   }
 
   .service-box p, .work-box p{
-    background: none;
+    background: none !important;
+    padding: 0 0 0 0 !important;
   }
 
   .service-grid{
@@ -1727,7 +1920,13 @@ $line_color: #ddd;
 
   div.contact{
     margin: 0 auto;
+    float: none;
   }
+
+  div.contact a{
+    text-align: center;
+  }
+
   .footer {
     padding: 2em 0 0;
   }
@@ -1787,7 +1986,7 @@ $line_color: #ddd;
   }
 
   .banner-nav {
-    padding-top:4.5%;
+    padding-top: 2.8%;
   }
 
   .portfolio-wrapper h4 {

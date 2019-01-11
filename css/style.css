@@ -4,6 +4,9 @@ Author URL: http://webtechandmore.org
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.b-link-stripe {
+  max-width: 100%; }
+
 body, html {
   padding: 0px;
   margin: 0px;
@@ -20,6 +23,31 @@ body {
 
 .container {
   position: relative; }
+
+.reports div {
+  margin: 0 auto;
+  width: 60%;
+  min-width: 300px; }
+
+.reports button {
+  width: 49%;
+  margin: 0 auto;
+  background: #C0C0C0; }
+
+/*.reports button:first-child{
+	border-right:3px solid $s_color;
+}
+.reports button:last-child{
+	border-left:3px solid $s_color;
+}*/
+.reports button a {
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 6px; }
+
+.reports button a:hover, .reports button a:active {
+  color: #5281AC; }
 
 form.contact input {
   margin: 3% 1% 1% 0; }
@@ -42,9 +70,8 @@ form.contact input, form.contact textarea {
 
 .banner-info {
   text-align: center;
-  background: url(http://localhost/southern-partners2/dev/css/../images/line1.png) no-repeat 15em 1.5em;
+  background: url(../images/line1.png) no-repeat 50% 84%;
   display: block;
-  min-width: 320px;
   margin: 12% auto 0; }
 
 .banner-info h2 {
@@ -55,9 +82,9 @@ form.contact input, form.contact textarea {
 
 .banner-info p.para {
   color: #eee;
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: 'Open Sans', sans-serif;
-  margin: 2em 0 2.3em; }
+  margin: 1em 0 2.3em; }
 
 .see {
   text-align: center;
@@ -153,6 +180,10 @@ form.contact input, form.contact textarea {
   color: #333;
   text-decoration: none; }
 
+a:hover, a:focus {
+  color: #76EA3D !important;
+  text-decoration: none !important; }
+
 /*-- //banner-bottom -nav --*/
 /*-- services --*/
 .services {
@@ -177,7 +208,6 @@ form.contact input, form.contact textarea {
 .service-box p:hover {
   text-decoration: none;
   color: #eee;
-  background: url(../images/1-.png) no-repeat 40px 19px;
   display: block; }
 
 .service-box-line {
@@ -196,7 +226,8 @@ form.contact input, form.contact textarea {
 
 .service-grid {
   float: left;
-  width: 24%;
+  width: 19%;
+  height: 309px;
   background: #eee;
   text-align: center;
   padding: 6em 0em; }
@@ -206,6 +237,11 @@ form.contact input, form.contact textarea {
   display: block;
   height: 47px; }
 
+.service-grid .figx span {
+  background: url(../images/droplet.png) no-repeat center;
+  display: block;
+  height: 48px; }
+
 .service-grid .fig1 span {
   background: url(../images/renewable.png) no-repeat center;
   display: block;
@@ -214,7 +250,7 @@ form.contact input, form.contact textarea {
 .service-grid .fig2 span {
   background: url(../images/petrol.png) no-repeat center;
   display: block;
-  height: 48px; }
+  height: 47px; }
 
 .service-grid .fig3 span {
   background: url(../images/natural_gas.png) no-repeat center;
@@ -233,13 +269,12 @@ form.contact input, form.contact textarea {
   margin: 1em 0;
   color: #333; }
 
-.service-grid:nth-child(2) {
-  margin: 0 1%; }
-
-.service-grid:nth-child(3) {
-  margin: 0 1% 0 0em; }
-
 .service-grids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  -ms-text-justify: left;
+  text-justify: left;
   float: left;
   width: 100%;
   padding: 3%; }
@@ -293,7 +328,7 @@ form.contact input, form.contact textarea {
 .b-link-stripe .b-wrapper {
   position: absolute;
   width: 100%;
-  height: 83%;
+  height: 100%;
   top: 0;
   left: 0;
   text-align: center;
@@ -687,7 +722,7 @@ p.m_5 {
 
 .callbacks_nav {
   position: absolute;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   top: 89%;
   left: 13%;
   opacity: 0.7;
@@ -2489,7 +2524,8 @@ div.contact {
   min-width: 230px;
   height: auto;
   color: #eee;
-  background: #5281AC; }
+  background: #5281AC;
+  float: left; }
 
 form.contact {
   opacity: .7; }
