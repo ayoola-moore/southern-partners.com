@@ -9,7 +9,11 @@
 	<div class="container">
 		<div class="banner-info">
 			<h2>Southern Partners</h2>
+<<<<<<< HEAD:dev/index.php
 			<p class="para">Power . Natural Gas . Renewables <br> Petroleum . Crude Oil </p>
+=======
+			<p class="para">Power . Crude Oil . Natural Gas .  <br> Petroleum Products . Renewables </p>
+>>>>>>> modifications:index.php
 			<div class="see">
 				<a href="services.php">FIND OUT MORE</a>
 				<div class="back">
@@ -65,27 +69,46 @@
 					<span> </span>
 				</div>
 				<h4>Power</h4>
+<<<<<<< HEAD:dev/index.php
 				<p>This includes the purchase, sale, marketing, and delivery of power. When it comes to power, we've got you covered.</p>
+=======
+				<p>Purchase, sale, marketing, and delivery of power.</p>
+>>>>>>> modifications:index.php
 			</div>
+            <div class="service-grid">
+                <div class="figx">
+                    <span> </span>
+                </div>
+                <h4>Crude Oil</h4>
+                <p>Supply and delivery of Crude oil to offices, factory Etc.</p>
+            </div>
 			<div class="service-grid">
 				<div class="fig3">
 					<span> </span>
 				</div>
 				<h4>Natural gas</h4>
+<<<<<<< HEAD:dev/index.php
 				<p>Natural gas is a fossil fuel used as a source of energy for heating, cooking, electricity generation, as well as many other uses.</p>
+=======
+				<p>Source of energy for heating, cooking, electricity generation Etc.</p>
+>>>>>>> modifications:index.php
 			</div>
 			<div class="service-grid">
 				<div class="fig1">
 					<span> </span>
 				</div>
 				<h4>Renewables</h4>
+<<<<<<< HEAD:dev/index.php
 				<p>Renewable energy includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass, which are replenished naturally.</p>
+=======
+				<p>Renewable energy includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass.</p>
+>>>>>>> modifications:index.php
 			</div>
 			<div class="service-grid">
 				<div class="fig2">
 					<span> </span>
 				</div>
-				<h4>Petroleum</h4>
+				<h4>Petroleum Products</h4>
 				<p>Petroleum products includes gasoline, jet fuel, diesel fuel, heating oil, and other fuel oils. </p>
 			</div>
 			<div class="clearfix"> </div>
@@ -106,8 +129,13 @@
 
 <p class="about_p">
 
+<<<<<<< HEAD:dev/index.php
 	Southern Partners is a marketer of power and natural gas, as well as other petroleum products and renewables.  Southern Partners also provides consulting services.
-	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customers’ costs. Southern Partners takes title to the energy commodities it sells.
+	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customersï¿½ costs. Southern Partners takes title to the energy commodities it sells.
+=======
+	Southern Partners is a marketer of power, crude oil, and natural gas, as well as other petroleum products and renewables.  Southern Partners also provides consulting services.
+	Southern Partners is in the business of structuring long-term custom energy contracts designed to lower our customersï¿½ costs. Southern Partners takes title to the energy commodities it sells.
+>>>>>>> modifications:index.php
 
 
 	Southern Partners trades natural gas and electricity as commodities and manages the risks.  Information is the vital element of any commodity business, and whatever entity can accumulate the most information and act on it most quickly will have a competitive advantage.

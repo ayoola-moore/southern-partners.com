@@ -114,7 +114,7 @@
 		</li>
 	</ul>
 	<div class="header-bottom-right">
-		<h2 class="h2_t">Power, Natural Gas, Renewables, and Petroleum</h2>
+		<h2 class="h2_t">Power, Crude Oil, Natural Gas, Renewables, and Petroleum Products</h2>
 		<p>We deliver this form of energy at the lowest possible cost. Renewable energy is generated from natural processes which are continuously replenished. This includes sunlight, geothermal heat, wind, tides, water, and various forms of biomass. This energy cannot be exhausted and is constantly renewed.
 			<br>
 			<br>

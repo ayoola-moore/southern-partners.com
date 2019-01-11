@@ -222,6 +222,10 @@ form.contact input, form.contact textarea{
 	color:$p_color;
 	text-decoration:none;
 }
+a:hover, a:focus {
+	color: $lemon !important;
+	text-decoration: none !important;
+}
 /*-- //banner-bottom -nav --*/
 /*-- services --*/
 .services{
@@ -239,7 +243,6 @@ form.contact input, form.contact textarea{
 	display: block;
 	color: $white;
 	font-size: 18px;
-	//font-weight: 600;
 	letter-spacing: 2px;
 	padding: 20px 40px 20px 75px;
 	text-align:center;
@@ -266,16 +269,22 @@ form.contact input, form.contact textarea{
 }
 .service-grid{
 	float:left;
-	width:24%;
+	width:19%;
 	height: 309px;
 	background:$white;
 	text-align:center;
 	padding: 6em 0em;
 }
+
 .service-grid .fig span{
 	background: url(../images/energy2.png) no-repeat center;
 	display: block;
 	height: 47px;
+}
+.service-grid .figx span{
+	background: url(../images/droplet.png) no-repeat center;
+	display: block;
+	height: 48px;
 }
 .service-grid .fig1 span{
 	background: url(../images/renewable.png) no-repeat center;
@@ -285,7 +294,7 @@ form.contact input, form.contact textarea{
 .service-grid .fig2 span{
 	background:url(../images/petrol.png) no-repeat center;
 	display:block;
-	height:48px;
+	height:47px;
 }
 .service-grid .fig3 span{
 	background: url(../images/natural_gas.png) no-repeat center;
@@ -305,13 +314,18 @@ form.contact input, form.contact textarea{
 	margin:1em 0;
 	color: $p_color;
 }
-.service-grid:nth-child(2){
-	margin:0 1%;
-}
-.service-grid:nth-child(3){
-	margin:0 1% 0 0em;
-}
+//.service-grid:nth-child(2){
+//	margin:0 1%;
+//}
+//.service-grid:nth-child(4){
+//	margin:0 1% 0 0em;
+//}
 .service-grids{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	-ms-text-justify: left;
+	text-justify: left;
 	float: left;
 	width: 100%;
 	padding: 3%;

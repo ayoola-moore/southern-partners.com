@@ -123,6 +123,7 @@ $line_color: #ddd;
   .service-grid p{
     line-height: 1.5em;
     font-size:1em;
+<<<<<<< HEAD:dev/scss/media_query.scss
   }
 
   .container{
@@ -150,7 +151,33 @@ $line_color: #ddd;
 @media (max-width:1440px){
   .service-grid:nth-child(3) {
     margin: 0 1% 0 0em;
+=======
+>>>>>>> modifications:scss/media_query.scss
   }
+
+  .container{
+    width: 2500px;
+  }
+
+  .services{
+    margin-bottom: 4em;
+  }
+
+  .footer-right ul li, .mes{
+    padding: 1.8% 0;
+  }
+
+  .img-responsive{
+    width: 650px;
+  }
+}
+
+
+
+
+
+
+@media (max-width:1440px){
 
   .b-link-stripe .b-wrapper {
     height: 100%;
@@ -701,7 +728,6 @@ $line_color: #ddd;
   }
   .service-grid {
     padding: 2em 0em 0em;
-    width: 49%;
     height: 300px;
   }
   .services {
