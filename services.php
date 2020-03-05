@@ -71,6 +71,23 @@
 <!-- //header-bottom -->
 <div  id="top" class="callbacks_container">
 	<ul class="rslides" id="slider2">
+	<li>
+			<div class="header-bottom-info">
+				<div class="header-bottom-left">
+					<img src="images/petrol-truck.jpg" alt=" " />
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+		</li>
+		<li>
+			<div class="header-bottom-info">
+				<div class="header-bottom-left">
+					<img src="images/oil.jpg" alt=" " />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</li>
 		<li>
 			<div class="header-bottom-info">
 				<div class="header-bottom-left">
