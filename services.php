@@ -83,14 +83,6 @@
 		<li>
 			<div class="header-bottom-info">
 				<div class="header-bottom-left">
-					<img src="images/oil.jpg" alt=" " />
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</li>
-		<li>
-			<div class="header-bottom-info">
-				<div class="header-bottom-left">
 					<img src="images/energy.jpg" alt=" " />
 				</div>
 
@@ -108,6 +100,14 @@
 			<div class="header-bottom-info">
 				<div class="header-bottom-left">
 					<img src="images/diagram.png" alt=" " />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</li>
+		<li>
+			<div class="header-bottom-info">
+				<div class="header-bottom-left">
+					<img src="images/oil.jpg" alt=" " />
 				</div>
 				<div class="clearfix"> </div>
 			</div>
