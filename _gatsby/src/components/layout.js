@@ -6,46 +6,53 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
+import bootstrap from "../scss-css/bootstrap.css"
+import css_reset from "../scss-css/css_reset.css"
+import mediaQuery from "../scss-css/media_query.scss"
+import style from "../scss-css/style.scss"
 
-import Header from "./header"
-import "./layout.css"
-
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
+const Layout = ({ children, className }) => {
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <Helmet>
+        <link
+          href={`${css_reset}`}
+          rel="stylesheet"
+          type="text/css"
+          media="all"
+        />
+        <link href={`${style}`} rel="stylesheet" type="text/css" media="all" />
+        <link
+          href={`${bootstrap}`}
+          rel="stylesheet"
+          type="text/css"
+          media="all"
+        />
+        <link
+          href={`${mediaQuery}`}
+          rel="stylesheet"
+          type="text/css"
+          media="all"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Muli"
+          rel="stylesheet"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Helmet>
+      <main className={className}>{children}</main>
     </>
   )
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+// Layout.propTypes = {
+//   children: PropTypes.node.isRequired,
+// }
 
 export default Layout
