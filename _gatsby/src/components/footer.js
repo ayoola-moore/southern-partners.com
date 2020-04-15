@@ -1,4 +1,5 @@
 import React from "react"
+import FooterCredit from "./footerCredit"
 
 export default function Footer() {
   return (
@@ -30,7 +31,7 @@ export default function Footer() {
       </div>
       <div className="body_margin"></div>
 
-      <div className="footer_credit">&copy; Southern Partners | 2020</div>
+      <FooterCredit />
     </>
   )
 }

@@ -7,9 +7,7 @@
 
 import React from "react"
 import { Helmet } from "react-helmet"
-import bootstrap from "../scss-css/bootstrap.css"
 import css_reset from "../scss-css/css_reset.css"
-import mediaQuery from "../scss-css/media_query.scss"
 import style from "../scss-css/style.scss"
 
 const Layout = ({ children, className }) => {
@@ -23,18 +21,6 @@ const Layout = ({ children, className }) => {
           media="all"
         />
         <link href={`${style}`} rel="stylesheet" type="text/css" media="all" />
-        <link
-          href={`${bootstrap}`}
-          rel="stylesheet"
-          type="text/css"
-          media="all"
-        />
-        <link
-          href={`${mediaQuery}`}
-          rel="stylesheet"
-          type="text/css"
-          media="all"
-        />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
           rel="stylesheet"
