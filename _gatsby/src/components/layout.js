@@ -7,8 +7,8 @@
 
 import React from "react"
 import { Helmet } from "react-helmet"
-import css_reset from "../scss-css/css_reset.css"
-import style from "../scss-css/style.scss"
+import css_reset from "../scss-css/css-reset.scss"
+import style from "../scss-css/styles.scss"
 
 const Layout = ({ children, className }) => {
   return (

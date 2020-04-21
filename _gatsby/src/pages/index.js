@@ -9,10 +9,11 @@ import HomeContent from "../templates/homeContent"
 const IndexPage = () => (
   <Layout className={"home"}>
     <SEO title="Home" />
-    <HomeBanner />
+    <div>Something</div>
+    {/* <HomeBanner />
     <Navigations />
     <HomeContent />
-    <Footer />
+    <Footer /> */}
   </Layout>
 )
 
