@@ -107,7 +107,7 @@ noreferrer"
         competitor. Therefore purchasing from us will also help our customers
         achieve diversity purchasing goals and standards that has been
         established.
-        <a href="about.php" className="f_more">
+        <a href="/about" className="f_more">
           find out more
         </a>
       </p>
@@ -208,7 +208,7 @@ noreferrer"
         </div>
         <div className="clearfix"> </div>
         <div className="link">
-          <a href="services.php" className="more_link">
+          <a href="/services" className="more_link">
             {" "}
             More services ...{" "}
           </a>
