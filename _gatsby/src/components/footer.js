@@ -1,5 +1,5 @@
 import React from "react"
-import FooterCredit from "./footerCredit"
+import FooterCredit from "./footerCredit.js"
 
 export default function Footer() {
   return (
