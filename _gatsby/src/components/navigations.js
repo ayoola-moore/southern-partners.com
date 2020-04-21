@@ -1,6 +1,5 @@
 import { Link } from "gatsby"
 import React from "react"
-import logo from "../images/logo.png"
 
 export default function Navigations() {
   return (
@@ -9,7 +8,7 @@ export default function Navigations() {
         <div className="navi">
           <div className="head-logo">
             <Link to="/">
-              <img src={logo} alt=" " />
+              <img src={"images/logo.png"} alt=" " />
               <span className="southern">Southern</span>{" "}
               <span className="partner"> Partners</span>
             </Link>

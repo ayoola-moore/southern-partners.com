@@ -3,7 +3,7 @@ import React from 'react'
 export default function FooterCredit() {
     return (
         <div>
-            FooterCredit
+            &copy; Southern Partners | 2020
         </div>
     )
 }
