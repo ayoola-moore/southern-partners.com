@@ -4,14 +4,14 @@ import PageBanner from "../components/pageBanner"
 import Layout from "../components/layout"
 import Navigations from "../components/navigations"
 import SEO from "../components/seo"
-import HomeContent from "../templates/homeContent"
+import ServiceContent from "../templates/servicesContent"
 
 const ServicePage = () => (
   <Layout className={"contact_b"}>
-    <SEO title="Home" />
+    <SEO title="Services & products" />
     <PageBanner pageTitle={"products and services"} />
     <Navigations />
-    <HomeContent />
+    <ServiceContent />
     <Footer />
   </Layout>
 )
