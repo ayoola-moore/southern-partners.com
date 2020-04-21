@@ -11,7 +11,7 @@ export default function HomeBanner() {
             Renewables{" "}
           </p>
           <div className="see">
-            <a href="services.php">FIND OUT MORE</a>
+            <a href="/services">FIND OUT MORE</a>
             <div className="back">
               <p>
                 <label>s</label>

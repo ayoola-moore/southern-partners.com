@@ -6,7 +6,9 @@ export default function Footer() {
     <>
       <div id="contact" className="footer">
         <div className="footer-left">
-          <div id="southern_partners_map"></div>
+          <div id="southern_partners_map">
+            <img src="images/map-ca.png" />
+          </div>
         </div>
         <div className="footer-right">
           <h4>
@@ -24,7 +26,7 @@ export default function Footer() {
           <br />
           <br />
           <div className="contact">
-            <a href="contact.php">Get in touch</a>
+            <a href="/contact">Get in touch</a>
           </div>
         </div>
         <div className="clearfix"> </div>
