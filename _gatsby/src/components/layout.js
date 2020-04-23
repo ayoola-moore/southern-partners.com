@@ -9,6 +9,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import css_reset from "../scss-css/css-reset.scss"
 import style from "../scss-css/styles.scss"
+import PropTypes, { string } from "prop-types"
 
 const Layout = ({ children, className }) => {
   return (
@@ -37,8 +38,9 @@ const Layout = ({ children, className }) => {
   )
 }
 
-// Layout.propTypes = {
-//   children: PropTypes.node.isRequired,
-// }
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: string,
+}
 
 export default Layout

@@ -1,0 +1,10 @@
+// enabled: for enabling the rule. 0=off, 1=warn, 2=error. Defaults to 0.
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "react/jsx-no-target-blank": 0,
+    "react/prop-types": 1
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
