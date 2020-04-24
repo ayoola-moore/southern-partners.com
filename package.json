@@ -8,13 +8,11 @@
     "scss": "node-sass --watch scss -o css"
   },
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ayoola_moore/southern-partners.com.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ayoola_moore/southern-partners.com#readme",
   "dependencies": {
     "node-sass": "^4.11.0"
   }
