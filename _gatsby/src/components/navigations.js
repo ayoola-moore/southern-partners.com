@@ -1,23 +1,30 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useState } from "react"
 
 export default function Navigations() {
+  const [showMobileNav, setMobileNavState] = useState(false)
+
   return (
     <div className="banner-bottom">
       <div className="container">
         <div className="navi">
           <div className="head-logo">
             <Link to="/">
-              <img src={"images/logo.png"} alt=" " />
               <span className="southern">Southern</span>{" "}
               <span className="partner"> Partners</span>
+              {/* <img src={"images/logo.png"} alt=" " /> */}
             </Link>
           </div>
           <div className="banner-nav">
-            <span className="menu">
+            <span
+              className="menu"
+              onClick={() => {
+                setMobileNavState(!showMobileNav)
+              }}
+            >
               <img src="images/menu.png" alt=" " />
             </span>
-            <ul className="nav1">
+            <ul className={`nav1 ${showMobileNav ? "displayNav" : ""}`}>
               <li className="active">
                 <Link to="/">HOME</Link>
               </li>

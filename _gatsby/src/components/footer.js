@@ -16,8 +16,7 @@ export default function Footer() {
           </h4>
           <ul className="contact_ul">
             <li className="dot">
-              Address: 638 Camino De Los Mares, Suite H130-450 San Clemente, CA
-              92673-2848
+              Address: 999 Corporate Drive, Suite 100 Ladera Ranch, CA 92694
             </li>
             <li className="mobile">Tel: 888.PARTNER (727.8637)</li>
             <li className="mobile">Fax: 949.498.5066</li>

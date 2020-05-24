@@ -4,7 +4,9 @@
   "rules": {
     "strict": 0,
     "react/jsx-no-target-blank": 0,
-    "react/prop-types": 1
+    "react/prop-types": 1,
+    "no-undef": "off",
+    "react/no-unknown-property": 0
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"]
 }
