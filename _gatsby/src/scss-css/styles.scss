@@ -1131,6 +1131,7 @@ div.map {
 }
 
 // @media query
+
 @media screen and (orientation: portrait) {
   .banner {
     height: 40vh;
@@ -3085,6 +3086,12 @@ div.map {
   }
   div.head-logo > a > img {
     width: 25px;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-height: 470px) {
+  .banner-info {
+    margin-top: 0em;
   }
 }
 

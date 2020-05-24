@@ -4,6 +4,7 @@ module.exports = {
     description: `Southern Partners is a marketer of power, crude oil, and natural gas, as well as other petroleum products and renewables.`,
     author: `@ayoola`,
   },
+  pathPrefix: "/southern-partners.com",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-eslint`,
