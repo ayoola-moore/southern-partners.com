@@ -8,7 +8,7 @@ export default function ContactContent() {
         <Iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.8868578487036!2d-117.63219618437492!3d33.55631585114748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcedcdbb83b1d7%3A0xc36a614740e56e6d!2s999%20Corporate%20Dr%20%23100%2C%20Ladera%20Ranch%2C%20CA%2092694%2C%20USA!5e0!3m2!1sen!2smu!4v1590335107208!5m2!1sen!2smu"
           width="100%"
-          height="450"
+          height="400px"
           frameborder="0"
           style="border:0;"
           allowfullscreen=""
