@@ -88,7 +88,7 @@ form.contact textarea {
 
 /*-- banner --*/
 .banner {
-  background: url(/images/banner.png) no-repeat 0px 0px;
+  background: url("../../static/images/banner.png") no-repeat 0px 0px;
   background-size: cover;
   width: 100%;
   padding: 1% 0 10%;
@@ -863,7 +863,7 @@ a.more_link:active {
 }
 
 .bg_img {
-  background: url("../../static/images/banner.png") no-repeat;
+  background: url("/images/banner.png") no-repeat;
   background-size: cover;
 }
 
