@@ -7,10 +7,7 @@ export default function HomeBanner() {
         <div className="banner-info">
           <div className="white-wrapper">
             <div className="title">Southern Partners</div>
-            <p className="para">
-              Power . Crude Oil . Natural Gas . <br /> Petroleum Products .
-              Renewables{" "}
-            </p>
+            <p className="para">Petroleum Products . Renewables </p>
             <div className="see">
               <a href="/services">FIND OUT MORE</a>
               <div className="back">

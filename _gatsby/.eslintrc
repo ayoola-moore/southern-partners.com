@@ -6,7 +6,8 @@
     "react/jsx-no-target-blank": 0,
     "react/prop-types": 1,
     "no-undef": "off",
-    "react/no-unknown-property": 0
+    "react/no-unknown-property": 0,
+    "react/no-unescaped-entities": 0
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"]
 }

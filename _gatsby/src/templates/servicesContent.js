@@ -9,41 +9,31 @@ export default function ServicesContent() {
       </div>
       <div id="top" className="callbacks_container">
         <div className="rslides" id="slider2">
-          <Carousel withoutControls={true} autoplay={true }>
+          <Carousel withoutControls={true} autoplay={true}>
             <img src="images/petrol-truck.jpg" alt=" " />
-            <img src="images/energy.jpg" alt=" " />
+            {/* <img src="images/energy.jpg" alt=" " /> */}
             <img src="images/renewable_energy.jpg" alt=" " />
             <img src="images/diagram.png" alt=" " />
 
-            <img src="images/oil.jpg" alt=" " />
-            <img src="images/petroleum.jpg" alt=" " />
-            <img src="images/natural_gas2.jpg" alt=" " />
+            {/* <img src="images/oil.jpg" alt=" " /> */}
+            {/* <img src="images/petroleum.jpg" alt=" " /> */}
+            {/* <img src="images/natural_gas2.jpg" alt=" " /> */}
           </Carousel>
         </div>
         <div className="header-bottom-right">
-          <h2 className="h2_t">
-            Power, Crude Oil, Natural Gas, Renewables, and Petroleum Products
-          </h2>
+          <h2 className="h2_t">Petroleum Products and Renewables</h2>
+          <br />
+          <br />
           <p>
-            We deliver this form of energy at the lowest possible cost.
-            Renewable energy is generated from natural processes which are
+            Southern Partners delivers petroleum products at the lowest possible
+            cost. Our network of partners, allows us to deliver petroleum
+            products safely and on time at your desired location.
+            <br />
+            <br />
+            Renewable energy is generated from natural prosses which are
             continuously replenished. This includes sunlight, geothermal heat,
-            wind, tides, water, and various forms of biomass. This energy cannot
-            be exhausted and is constantly renewed.
-            <br />
-            <br />
-            <p>
-              With our network of partners, delivering petroleum products are
-              done promptly. We operate broadly and put our customers concerns
-              first. As such, we deliver products in way that lowers your cost.{" "}
-            </p>
-            <br />
-            <p>
-              The wide range of uses for natural gas makes it a critical
-              resource for the world economy. The uses of natural gas are broad.
-              whatever your natural gas needs might be we are equipped to
-              deliver.
-            </p>
+            wind, tides, water, and various form of biomass. This energy cannot
+            be exhausted.
           </p>
 
           <div className="clearfix"> </div>
@@ -53,13 +43,13 @@ export default function ServicesContent() {
       <div className="clearfix"> </div>
 
       <p className="about_p lines">
-        Southern Partners provides wholesale energy commodities in deregulated
-        markets. Southern Partners builds its wholesale businesses through the
-        creation of alliances and partnerships. These alliances and partnerships
-        allows Southern Partners access to third-party assets to participate in
-        market-making activities. Each market in which Southern Partners
-        operates utilizes these alliances and partnerships to deliver high
-        quality products and services.
+        Southern Partners provides wholesale petroleum products and renewables.
+        Southern Partners builds its wholesale business through the creation of
+        alliances and partnerships. These alliances and partnerships allows
+        Southern Partners to access to third-party assets to effectively compete
+        in most petroleum products and renewable markets around the country.
+        Each market in which Southern Partners operates utilizes these alliances
+        and partnerships to deliver high quality products and services.
       </p>
 
       <div className="header-bottom">

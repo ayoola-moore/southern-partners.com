@@ -66,14 +66,14 @@ export default function AboutContent() {
       <div className="about_quote">Management</div>
 
       <p className="about_p">
-        Southern Partners is a certified woman minority-owned business with the
+        Southern Partners is a certified woman owned minority business with the
         Supplier Clearinghouse. Southern Partners has unmatched business, energy
         and regulatory expertise. Southern Partners consists of a well rounded
-        management team with years of experience relating to energy commodities,
-        operations management, and logistics. Nicole “Nikki” Sias is the
-        managing partner firmly committed to Southern Partners.
-        <br />
-        <br />
+        management team with over 40 years of combined managerial experience
+        relating to energy services management, operations management, and
+        logistics. Nicole Sias is the managing partner firmly committed to
+        Southern Partners.
+        <br /> <br />
         Ms. Sias is the President and Chief Executive Officer, of Southern
         Partners, Inc. responsible for establishing the company structure as
         well as day-to-day operations of the company. She is also responsible

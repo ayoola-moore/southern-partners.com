@@ -10,34 +10,10 @@ export default function HomeContent() {
             <p>PRODUCTS</p>
           </div>
           <p className="para1">
-            Our product are design Long term energy contracts are designed{" "}
-            <span>To lower your cost.</span>
+            Our products and services are design to meet{" "}
+            <span>our customers needs.</span>
           </p>
           <div className="service-grids">
-            <div className="service-grid">
-              <div className="fig">
-                <span> </span>
-              </div>
-              <h4>Power</h4>
-              <p>Purchase, sale, marketing, and delivery of power.</p>
-            </div>
-            <div className="service-grid">
-              <div className="figx">
-                <span> </span>
-              </div>
-              <h4>Crude Oil</h4>
-              <p>Supply and delivery of Crude oil to offices, factory Etc.</p>
-            </div>
-            <div className="service-grid">
-              <div className="fig3">
-                <span> </span>
-              </div>
-              <h4>Natural gas</h4>
-              <p>
-                Source of energy for heating, cooking, electricity generation
-                Etc.
-              </p>
-            </div>
             <div className="service-grid">
               <div className="fig1">
                 <span> </span>
@@ -54,8 +30,8 @@ export default function HomeContent() {
               </div>
               <h4>Petroleum Products</h4>
               <p>
-                Petroleum products includes gasoline, jet fuel, diesel fuel,
-                heating oil, and other fuel oils.{" "}
+                Petroleum products includes Gasoline, jet fuel, diesel fuel,
+                heating oil, and other products.{" "}
               </p>
             </div>
             <div className="clearfix"> </div>
@@ -91,22 +67,17 @@ noreferrer"
       <div className="about_quote">WHO WE ARE AND WHAT WE DO</div>
 
       <p className="about_p">
-        Southern Partners is a marketer of power, crude oil, and natural gas, as
-        well as other petroleum products and renewables. Southern Partners also
-        provides consulting services. Southern Partners is in the business of
-        structuring long-term custom energy contracts designed to lower our
-        customers� costs. Southern Partners takes title to the energy
-        commodities it sells. Southern Partners trades natural gas and
-        electricity as commodities and manages the risks. Information is the
-        vital element of any commodity business, and whatever entity can
-        accumulate the most information and act on it most quickly will have a
-        competitive advantage. Our team assimilates and acts on information
-        quickly. At any moment, our team knows exactly where natural gas and
-        power prices are trading throughout the country. Southern partners is a
-        certified Minority Supplier, capable of competing against all
-        competitor. Therefore purchasing from us will also help our customers
-        achieve diversity purchasing goals and standards that has been
-        established.
+        Southern Partners is a marketer of petroleum products and renewables.
+        Southern Partners also provides consulting services. Southern Partners
+        takes title to the products it sells. Southern Partners is in the
+        business of structuring short or long-term contracts designed to lower
+        our customers’ costs. Information is a vital element of energy markets,
+        and whatever entity can accumulate the most information and act on it
+        most quickly will have a competitive advantage. Southern Partners is
+        certified woman owned minority supplier capable of competing in all
+        markets. Therefore, purchasing from us will also help our customers
+        achieve any diversity purchasing goals and standards that their
+        companies have established.
         <a href="/about" className="f_more">
           find out more
         </a>
