@@ -1,5 +1,6 @@
 import React from "react"
 import Iframe from "react-iframe"
+import ContactForm from "../components/contactForm"
 
 export default function ContactContent() {
   return (
@@ -20,37 +21,7 @@ export default function ContactContent() {
       <div id="contact" className="footer f_contact">
         <div className="footer-left">
           <div className="leave-comment">
-            <form className="contact" action="sendmail.php" method="post">
-              <input
-                className="in1"
-                type="text"
-                placeholder="Name"
-                required=" "
-                name="name"
-              />
-              <input
-                className="in2"
-                type="email"
-                placeholder="Email"
-                required=" "
-                name="email"
-              />
-              <input
-                className="in3 no_margin_right"
-                type="tel"
-                placeholder="Tel"
-                required=" "
-                name="phone"
-              />
-              <textarea
-                className="in4"
-                placeholder="Type your message"
-                required=" "
-                name="message"
-              ></textarea>
-              <input type="submit" value="SEND" />
-              <div className="clearfix"> </div>
-            </form>
+            <ContactForm />
           </div>
         </div>
         <div className="footer-right c_info">

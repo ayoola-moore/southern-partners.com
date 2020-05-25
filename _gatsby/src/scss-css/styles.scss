@@ -749,8 +749,12 @@ a:focus {
   width: 100%;
 }
 
-.leave-comment input[type="text"]:nth-child(2) {
-  margin: 0 0.95em 2em;
+.feedback {
+  display: block;
+  width: 100%;
+  border: 2px solid green;
+  padding: 2%;
+  margin: 2% 0;
 }
 
 .leave-comment textarea {
