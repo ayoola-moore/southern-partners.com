@@ -28,6 +28,7 @@ html {
 body {
   background-color: $p_color !important;
   color: $input_color !important;
+  line-height: 1.5em;
 }
 
 a {
@@ -481,7 +482,7 @@ a:focus {
   width: 23%;
   margin: 0 1%;
   text-align: center;
-  min-width: 300px;
+  min-width: 275px;
 }
 
 /*-- //portfolio --*/
@@ -1737,7 +1738,7 @@ div.map {
     font-size: 1.7em;
   }
   p.about_p {
-    padding: 3% 7% 0 !important;
+    padding: 3% 7% !important;
     text-align: justify;
   }
 
@@ -1953,7 +1954,6 @@ div.map {
   .header-bottom-right {
     float: left;
     width: 100%;
-    padding: 0 0 0 0;
   }
 
   .header-bottom-right p.what {
@@ -2793,7 +2793,6 @@ div.map {
     margin-left: 0;
     float: none;
     width: 100%;
-    padding-left: 1em;
     padding-bottom: 1em;
   }
   .good {
