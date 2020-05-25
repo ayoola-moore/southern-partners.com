@@ -5,7 +5,6 @@ module.exports = {
     author: `@ayoola`,
   },
   pathPrefix: "/southern-partners.com",
-  assetPrefix: "/southern-partners.com",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-eslint`,
