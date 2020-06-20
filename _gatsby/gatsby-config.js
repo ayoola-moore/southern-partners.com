@@ -9,20 +9,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-eslint`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/static/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `css`,
-        path: `${__dirname}/src/scss-css`,
-      },
-    },
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     // Add these after css plugins
