@@ -32,9 +32,7 @@ export default function ContactContent() {
             <li className="dot">
               999 Corporate Drive, Suite 100 Ladera Ranch, CA 92694
             </li>
-            <li className="mobile">Tel: 888.PARTNER (727.8637)</li>
             <li className="mobile">Fax: 949.498.5066</li>
-            <li className="mes">Email: info@southern-partners.com</li>
           </ul>
         </div>
         <div className="clearfix"> </div>
